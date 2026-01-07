@@ -13,6 +13,18 @@ https://www.linkedin.com/posts/shobbika-t-989383332_taskabr4-webdevelopment-java
 - ✅ **Responsive** - Mobile + Desktop
 - ✅ **Mark complete** - Visual strikethrough + state saved
 
+## Sample Screens:
+
+- Task page:
+
+<img width="1889" height="1123" alt="Screenshot 2026-01-07 201933" src="https://github.com/user-attachments/assets/a6688ef0-fd15-4993-b1aa-0ad3c6dc1e2b" />
+
+
+- Occassions page:
+
+<img width="1886" height="1017" alt="Screenshot 2026-01-07 201949" src="https://github.com/user-attachments/assets/bbfe6ea5-b285-4c32-9e22-5567f9570d4c" />
+
+
 ## 🎨 **Tech Stack**
 - HTML5 | CSS3 (Flexbox) | JavaScript
 
