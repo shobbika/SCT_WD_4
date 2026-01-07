@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Planner & Occasion Adder</h1>
+        </header>
+
+        <nav class="sidebar">
+            <button class="tab-btn active" onclick="showTab('tasks')">📝 Tasks</button>
+            <button class="tab-btn" onclick="showTab('occasions')">🎉 Occasions</button>
+        </nav>
+
+        <main class="main-content">
+            <section id="tasks" class="tab-content active">
+                <h2>Task Planner</h2>
+                <form id="taskForm" class="add-form">
+                    <input type="text" id="taskName" placeholder="Enter task name" required>
+                    <input type="datetime-local" id="taskDateTime" required>
+                    <select id="taskType">
+                        <option value="once">Once</option>
+                        <option value="daily">Daily</option>
+                    </select>
+                    <button type="submit">Add Task</button>
+                </form>
+                <ul id="taskList" class="item-list"></ul>
+            </section>
+
+            <section id="occasions" class="tab-content">
+                <h2>Occasion Adder</h2>
+                <form id="occasionForm" class="add-form">
+                    <input type="text" id="occasionName" placeholder="Enter occasion name" required>
+                    <input type="date" id="occasionDate" required>
+                    <button type="submit">Add Occasion</button>
+                </form>
+                <ul id="occasionList" class="item-list"></ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
